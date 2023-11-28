@@ -13,7 +13,7 @@ const Nav = () => {
   return (
     <>
       <header className='padding-x py-8 absolute z-10 w-full'>
-        <nav className='flex justify-between items-center max-w-screen-xl mx-auto'>
+        <nav className='flex items-center max-w-screen-2xl gap-16 mx-auto'>
           <a href="/">
             <img src={headerLogo} alt="logo" className="w-20 h-auto" />
           </a>
@@ -35,7 +35,7 @@ const Nav = () => {
                 <li key={item.label}>
                   <a
                     href={item.href}
-                    className='text-lg text-gray-700 font-semibold hover:text-blue-600'
+                    className='text-lg text-gray-700 font-semibold hover:text-coral-blue font-montserrat'
                   >
                     {item.label}
                   </a>
@@ -49,7 +49,7 @@ const Nav = () => {
                 <li key={item.label}>
                   <a
                     href={item.href}
-                    className='text-lg text-gray-700 font-semibold hover:text-blue-600'
+                    className='text-base text-gray-700 font-semibold hover:text-coral-blue font-montserrat'
                   >
                     {item.label}
                   </a>
