@@ -5,7 +5,6 @@ export const navLinks = [
     { href: "/lista-espera", label: "Lista de Espera" },
     { href: "/galeria", label: "Galeria" },
     { href: "/sobre-nos", label: "Sobre nós" },
-    { href: "/edicoes-limitadas", label: "Edicições Limitadas" },
     { href: "/contacto", label: "Contacto" }
 ];
 
@@ -65,22 +64,22 @@ export const footerLinks = [
     {
         title: "Produtos",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" }
+            { name: "Air Force 1", link: "#" },
+            { name: "Air Max 1", link: "#" },
+            { name: "Air Jordan 1", link: "#" },
+            { name: "Air Force 2", link: "#" },
+            { name: "Nike Waffle Racer", link: "#" },
+            { name: "Nike Cortez", link: "#" }
         ]
     },
     {
         title: "Ajuda",
         links: [
-            { name: "Sobre nós", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "Como funciona?", link: "/" },
-            { name: "Políticas de privacidade", link: "/" },
-            { name: "Políticas de pagamento", link: "/" }
+            { name: "Sobre nós", link: "/sobre-nos" },
+            { name: "FAQs", link: "#" },
+            { name: "Como funciona?", link: "#" },
+            { name: "Políticas de privacidade", link: "#" },
+            { name: "Políticas de pagamento", link: "#" }
         ]
     },
     {

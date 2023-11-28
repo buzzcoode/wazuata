@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
+
 import { headerLogo } from '../assets/images'
 import { hamburger } from '../assets/icons'
 import { navLinks } from '../constants/index'
@@ -14,9 +16,9 @@ const Nav = () => {
     <>
       <header className='padding-x py-8 absolute z-10 w-full'>
         <nav className='flex items-center max-w-screen-2xl gap-16 mx-auto'>
-          <a href="/">
+          <Link to="/">
             <img src={headerLogo} alt="logo" className="w-20 h-auto" />
-          </a>
+          </Link>
           <div className='lg:hidden'>
             <img
               src={hamburger}
@@ -33,12 +35,12 @@ const Nav = () => {
             <ul className="space-y-4">
               {navLinks.map((item) => (
                 <li key={item.label}>
-                  <a
-                    href={item.href}
+                  <Link
+                    to={item.href}
                     className='text-lg text-gray-700 font-semibold hover:text-coral-blue font-montserrat'
                   >
                     {item.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -47,12 +49,12 @@ const Nav = () => {
             <ul className="flex space-x-8">
               {navLinks.map((item) => (
                 <li key={item.label}>
-                  <a
-                    href={item.href}
+                  <Link
+                    to={item.href}
                     className='text-base text-gray-700 font-semibold hover:text-coral-blue font-montserrat'
                   >
                     {item.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
