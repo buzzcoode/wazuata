@@ -1,7 +1,8 @@
 import { Layout } from "../components/Layout"
+import { About } from '../sections/About'
 
 export const AboutUs = () => (
   <Layout>
-    <h1>Sobre nós</h1>
+    <About />
   </Layout>
 )
