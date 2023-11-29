@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom"
 
 import { Home } from './pages/Home'
-import { WaitList } from './pages/WaitList'
+import { WaitListPage } from './pages/WaitList'
 import { Gallery } from './pages/Gallery'
 import { AboutUs } from './pages/AboutUs'
-import { Contact } from './pages/Contact'
+import { ContactPage } from './pages/Contact'
 
 
 function App() {
@@ -12,10 +12,10 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={ <Home/> } />
-        <Route path="lista-espera" element={ <WaitList/> } />
+        <Route path="lista-reserva" element={ <WaitListPage/> } />
         <Route path="galeria" element={ <Gallery/> } />
         <Route path="sobre-nos" element={ <AboutUs/> } />
-        <Route path="contacto" element={ <Contact/> } />
+        <Route path="contacto" element={ <ContactPage/> } />
       </Routes>
     </div>
   )

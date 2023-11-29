@@ -1,6 +1,6 @@
-import { arrowRight } from "../assets/icons"
+import { Link } from "react-router-dom";
+
 import { offer } from "../assets/images"
-import Button from './Button'
 
 const SpecialOffer = () => {
   return (
@@ -27,7 +27,7 @@ const SpecialOffer = () => {
         </p>
 
         <div className='mt-11 flex flex-wrap gap-4'>
-          <Button label='Garantir' iconURL={arrowRight} />
+          <Link to="/lista-reserva" className='flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-coral-blue text-white border-coral-blue rounded-full'>Garantir</Link>
         </div>
       </div>
     </section>

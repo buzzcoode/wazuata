@@ -1,4 +1,4 @@
-import Button from './Button'
+import { Link } from 'react-router-dom'
 
 import { shoe8 } from '../assets/images'
 
@@ -21,7 +21,7 @@ const SuperQuality = () => {
         </p>
 
         <div className="mt-11">
-          <Button label="Lista de reserva" />
+          <Link to="/lista-reserva" className='flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-coral-blue text-white border-coral-blue rounded-full max-w-xs'>Lista de reserva</Link>
         </div>
 
       </div>

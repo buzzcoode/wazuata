@@ -1,7 +1,8 @@
-import { Layout } from "../components/Layout";
+import { Layout } from "../components/Layout"
+import { Contact } from '../components/Contact'
 
-export const Contact = () => (
+export const ContactPage = () => (
   <Layout>
-    <h1>Contacto</h1>
+    <Contact />
   </Layout>
 )

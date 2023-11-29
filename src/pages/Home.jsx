@@ -3,7 +3,7 @@ import { Hero, PopularProducts, Services, SpecialOffer, Subscribe, SuperQuality 
 
 export const Home = () => {
   return <Layout>
-    <main className="relative">
+    <>
       <section className="xl:padding-l wide-padding-r padding-b">
         <Hero />
       </section>
@@ -27,6 +27,6 @@ export const Home = () => {
       <section className="padding-x sm:py-32 py-16 w-full">
         <Subscribe />
       </section>
-    </main>
+    </>
   </Layout>
 }

@@ -1,7 +1,8 @@
-import { Layout } from "../components/Layout";
+import { Layout } from "../components/Layout"
+import { WailtList } from "../sections/WaitList"
 
-export const WaitList = () => (
+export const WaitListPage = () => (
   <Layout>
-    <h1>Lista de espera</h1>
+    <WailtList />
   </Layout>
 )

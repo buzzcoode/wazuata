@@ -1,7 +1,6 @@
 import { useState } from 'react'
-import Button from './Button'
+import { Link } from 'react-router-dom'
 
-import { arrowRight } from '../assets/icons'
 import { shoes } from '../constants/index'
 import { bigShoe1 } from '../assets/images'
 import ShoeCard from '../components/ShoeCard'
@@ -20,7 +19,7 @@ const Hero = () => {
         <p className=' font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 max-w-lg'>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod accusantium sapiente rem nesciunt sunt, quaerat soluta excepturi dolores accusamus adipisci facere. Quis laborum tempora eligendi pariatur, error ipsa officiis aut.
         </p>
-        <Button label="Lista de reserva" iconUrl={arrowRight} />
+        <Link to="/lista-reserva" className='flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-coral-blue text-white border-coral-blue rounded-full'>Lista de reserva</Link>
       </div>
 
       <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-gradient-to-b from-blue-200 to-teal-50 bg-cover bg-center'>
