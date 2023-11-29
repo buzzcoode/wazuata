@@ -1,7 +1,8 @@
-import { Layout } from "../components/Layout";
+import { Layout } from "../components/Layout"
+import { Gallery } from '../components/Gallery'
 
-export const Gallery = () => (
+export const GalleryPage = () => (
   <Layout>
-    <h1>Galeria</h1>
+    <Gallery />
   </Layout>
 )
