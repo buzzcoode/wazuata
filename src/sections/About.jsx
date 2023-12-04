@@ -1,5 +1,5 @@
 export const About = () => (
-  <section className="2xl:max-container 2xl:mx-auto lg:py-72 lg:px-20 md:py-64 md:px-6 py-52 px-4">
+  <section className="max-container mx-auto lg:py-56 py-40">
   <div className="lg:w-10/12 w-full">
       <h2 className="xl:w-8/12 lg:w-10/12 w-full font-bold text-gray-900 lg:text-4xl text-3xl lg:leading-10 leading-9 mt-2">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit.
