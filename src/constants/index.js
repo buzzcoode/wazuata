@@ -2,7 +2,7 @@ import { facebook, instagram, shieldTick, support, truckFast, twitter } from "..
 import { bigShoe1, bigShoe2, bigShoe3,bigShoe4, shoe4, shoe5, shoe6, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3,thumbnailShoe4 } from "../assets/images";
 
 export const navLinks = [
-    { href: "/lista-espera", label: "Lista de Espera" },
+    { href: "/lista-reserva", label: "Lista de Espera" },
     { href: "/galeria", label: "Galeria" },
     { href: "/sobre-nos", label: "Sobre nós" },
     { href: "/contacto", label: "Contacto" }
